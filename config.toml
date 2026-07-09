@@ -10,6 +10,7 @@ title = "3D Print Plastic"
       unsafe = true
 
 [params]
+ogImage       = "/images/01_hero_polymer.png"
 siteName      = "3D Print Plastic"
 logoHtml      = '3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">PLASTIC</span>'
 tagline       = "Engineering polymer 3D printing — PEEK, Ultem, nylon, and high-performance plastics for functional prototypes, tooling, and end-use plastic components."
