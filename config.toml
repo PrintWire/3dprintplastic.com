@@ -1,9 +1,17 @@
 baseURL = "https://3dprintplastic.com/"
 languageCode = "en-us"
 title = "3D Print Plastic"
-theme = "printwire"
+[outputs]
+  home = ["HTML", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
+siteName      = "3D Print Plastic"
+logoHtml      = '3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">PLASTIC</span>'
 tagline       = "Engineering polymer 3D printing — PEEK, Ultem, nylon, and high-performance plastics for functional prototypes, tooling, and end-use plastic components."
 description   = "3D Print Plastic covers additive manufacturing of engineering polymers — from FDM PEEK and Ultem for aerospace to SLS nylon for production parts, PA-CF for structural applications, and flexible TPU."
 keywords      = "plastic 3D printing, PEEK 3D print, Ultem AM, engineering polymer printing, nylon 3D print, PA12 SLS, high performance plastic AM, polymer additive manufacturing"
