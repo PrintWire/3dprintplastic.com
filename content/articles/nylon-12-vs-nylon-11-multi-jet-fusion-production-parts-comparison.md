@@ -6,74 +6,76 @@ description: "Nylon 12 vs nylon 11 multi jet fusion production parts comparison 
 keywords: ["nylon 12 vs nylon 11 multi jet fusion production parts comparison", "PA11 vs PA12 MJF", "nylon MJF material selection", "HP multi jet fusion nylon"]
 ---
 
-When selecting a production-grade nylon for HP Multi Jet Fusion, engineers consistently face the same decision: PA12 or PA11? This **nylon 12 vs nylon 11 multi jet fusion production parts comparison** breaks down the mechanical performance, chemical resistance, sustainability profile, and cost implications of each material so you can make a data-driven choice for your next end-use application.
+When selecting a production-grade nylon for HP Multi Jet Fusion, engineers often face the same decision: PA12 or PA11? This **nylon 12 vs nylon 11 multi jet fusion production parts comparison** sets HP's own published numbers for the two materials side by side, covering mechanical performance, heat deflection, chemical resistance, powder reuse and sourcing.
 
 ## The Materials at a Glance
 
-Both PA11 and PA12 are semi-crystalline polyamides processed as fine powders in HP's MJF platform, but they originate from different chemistries and exhibit distinct behavior under load.
+Both materials are polyamide powders that HP sells for its Multi Jet Fusion platform, but they come from different chemistries.
 
-**PA12 (HP 3D High Reusability PA 12)** is derived from petroleum-based laurolactam. It is the most widely adopted MJF material globally, valued for its dimensional stability, low moisture absorption, and consistent batch-to-batch mechanical properties.
+**PA12 (HP 3D High Reusability PA 12)** is nylon 12, a polymer made from laurolactam or ω-aminolauric acid monomers with 12 carbons each. HP's datasheet positions it for complex assemblies, housings, enclosures and watertight applications.
 
-**PA11 (HP 3D High Reusability PA 11)** is synthesized from castor oil, a renewable feedstock. It offers higher elongation at break and impact resistance compared to PA12, making it the preferred choice for parts that must absorb energy or flex repeatedly without fracturing.
+**PA11 (HP 3D High Reusability PA 11)** is nylon 11, which is produced from castor oil. HP's datasheet describes it as a ductile material for prostheses, insoles, sports goods, snap fits and living hinges.
 
 ## Mechanical Properties: Head to Head
 
-The mechanical differences between these two nylons are meaningful and should drive material selection for any load-bearing or dynamic application.
+The figures below come from HP documents. HP states that datasheet values are averages or typical values and should not be used for specification purposes.
 
 ### Tensile Strength and Stiffness
 
-PA12 MJF parts typically achieve a tensile strength of approximately 48 MPa and a tensile modulus around 1,700 MPa. PA11 parts come in slightly lower on stiffness, with tensile strength near 46 MPa and modulus around 1,500 MPa. For rigid housings, brackets, and fixtures where deflection must be minimized, PA12 holds an edge.
+HP's PA 12 datasheet (November 2017) lists a tensile strength of 48 MPa in both XY and Z, with a tensile modulus of 1,700 MPa in XY and 1,800 MPa in Z. HP's PA 11 datasheet (January 2019) lists 52 MPa and 1,800 MPa in all orientations.
+
+HP's September 2020 white paper for the Jet Fusion 5200 Series reports 50 MPa and 1,900 MPa for PA 12, and 54 MPa with 1,700 MPa (XY) and 1,800 MPa (Z) for PA 11. The same paper gives the typical modulus spread as 1,650 to 2,200 MPa for PA 12 and 1,500 to 2,200 MPa for PA 11.
+
+In other words, HP's published numbers do not show a clear stiffness or strength advantage for PA12. The two materials overlap, and PA11 is listed slightly higher on tensile strength.
 
 ### Elongation and Impact Resistance
 
-This is where PA11 separates itself. PA11 MJF parts reach elongation at break values of 40% or higher, compared to roughly 15–20% for PA12. Izod impact strength for PA11 also exceeds PA12 by a significant margin. If your part must survive drops, repeated snap-fit engagement, or vibration loading, PA11 is the stronger candidate.
+This is where PA11 separates itself. The PA 11 datasheet lists elongation at break of 50% in XY and 35% in Z, compared with 20% in XY and 15% in Z on the PA 12 datasheet. The 5200 Series white paper shows the same pattern: 40% (XY) and 25% (Z) for PA 11 against 17% (XY) and 9% (Z) for PA 12.
 
-### Fatigue and Long-Term Loading
+Notched Izod impact strength is also higher for PA11. The datasheets list 5 kJ/m2 (XY) and 4.5 kJ/m2 (Z) for PA 11 against 3.5 kJ/m2 for PA 12. The white paper lists 7.0 kJ/m2 (XY) and 4.5 kJ/m2 (Z) for PA 11 against 4.2 kJ/m2 (XY) and 3.8 kJ/m2 (Z) for PA 12. Note that the PA11 advantage is largest in the XY plane and narrows in Z.
 
-PA11's ductility translates to better fatigue life in cyclic loading scenarios. Components like living hinges, clips, and connectors that undergo repeated stress cycles benefit from PA11's ability to plastically deform without crack propagation. For static or low-cycle applications, PA12 remains perfectly adequate.
+## Heat Deflection
 
-## Chemical and Environmental Resistance
+The two datasheets diverge depending on load. At 0.45 MPa, PA 11 is listed at 185 °C and PA 12 at 175 °C. At 1.82 MPa, PA 12 is listed at 95 °C (XY) and 106 °C (Z), while PA 11 is listed at 54 °C. For parts that carry load at elevated temperature, the datasheet numbers favor PA12.
 
-Both materials resist common hydrocarbons, greases, and fuels, but they diverge in moisture behavior and temperature tolerance.
+## Chemical Resistance
 
-PA12 absorbs less moisture than PA11 — typically under 0.5% at equilibrium versus roughly 0.9% for PA11. Lower moisture uptake means more stable dimensions and mechanical properties in humid or wet environments. For parts exposed to water or operating outdoors without sealing, PA12 is the safer pick.
+HP describes PA 12 as providing excellent chemical resistance to oils, greases, aliphatic hydrocarbons and alkalies, and says it achieves watertight properties without additional post-processing. HP also describes PA 11 as having excellent chemical resistance, citing tests with alkalies, alcohol, ketones, aliphatic and aromatic hydrocarbons, unleaded petrol, motor oil and DOT 3 brake fluid.
 
-PA11 performs slightly better in sustained elevated temperatures and offers marginally higher heat deflection temperatures, but the difference is small enough that neither material should be selected purely on thermal grounds within the MJF processing window.
+## Sustainability and Powder Reuse
 
-For detailed guidance on how nylon parts behave in aggressive chemical environments, see our guide on [chemical resistance of MJF nylon parts](/3dprintnylon.com/chemical-resistance-mjf-nylon/).
+According to HP, PA 11 powder is made with 100% renewable carbon content derived from castor plants grown without GMOs in arid areas that do not compete with food crops. HP describes this as a renewable raw material with reduced environmental impact.
 
-## Sustainability: The PA11 Advantage
-
-PA11's bio-based origin is not a marketing footnote — it represents a genuine difference in lifecycle impact. Castor oil is harvested from the castor plant, which grows in arid climates on marginal land that does not compete with food crops. HP reports that PA11 powder carries a lower carbon footprint than PA12 across raw material extraction and synthesis.
-
-Both materials support HP's powder reuse strategy, where unsintered powder is blended with fresh powder for subsequent builds. PA11 and PA12 achieve reusability ratios of 80/20 (recycled/fresh), reducing waste and per-part material cost over time. However, the bio-based sourcing of PA11 gives it a clear advantage for organizations tracking Scope 3 emissions or pursuing sustainability certifications.
-
-## Cost and Availability
-
-PA12 remains less expensive per kilogram than PA11 and is available from a broader base of MJF service bureaus. Lead times for PA12 jobs are typically shorter due to higher machine utilization with this material. PA11 availability has improved steadily, but engineers working under tight production schedules should confirm capacity with their bureau before committing to PA11 for volume runs.
+Both materials support powder reuse, where surplus powder is blended with fresh powder for subsequent builds, but the ratios differ. HP lists a 20% refresh ratio for PA 12 (80% surplus powder reusability) and a minimum 30% refresh ratio for PA 11 (up to 70% reusability). PA12 therefore needs less fresh powder per build.
 
 ## Decision Framework: Choosing the Right Nylon
 
-Use the following criteria to guide your nylon 12 vs nylon 11 multi jet fusion production parts comparison for a specific application:
+Use the following criteria, all drawn from HP's published data, to guide your nylon 12 vs nylon 11 multi jet fusion production parts comparison for a specific application:
 
 **Choose PA12 when:**
-- Dimensional stability in humid conditions is critical
-- Stiffness and low creep are prioritized over impact resistance
-- Cost per part must be minimized at volume
-- The application is static or low-cycle loading
+- The part carries load at elevated temperature (higher heat deflection temperature at 1.82 MPa)
+- Watertight housings and enclosures are the goal
+- Maximum powder reusability matters (80% versus up to 70%)
 
 **Choose PA11 when:**
-- The part must absorb impact or survive repeated flexing
+- The part must absorb impact or flex, as in snap fits and living hinges
 - Elongation at break above 30% is a design requirement
-- Sustainability and bio-based sourcing matter to the project
-- Fatigue life under cyclic loading is a primary concern
+- Bio-based sourcing matters to the project
 
-For applications that sit at the boundary — moderate impact, moderate stiffness — prototyping in both materials with functional testing is the most reliable path to a decision. Many MJF service providers offer small-batch comparison runs for exactly this purpose.
+For applications that sit at the boundary, prototyping in both materials with functional testing is the most reliable path to a decision.
 
-If you are new to designing parts for Multi Jet Fusion, our [MJF nylon design guide](/3dprintnylon.com/mjf-nylon-design-guide/) covers wall thickness, feature resolution, and orientation strategies that apply to both PA11 and PA12.
+## Summary
 
-## Looking Ahead
+On HP's own numbers, tensile strength and stiffness are close for the two nylons. The real trade-off is PA11 for ductility, impact resistance and renewable sourcing against PA12 for heat deflection under load and powder reusability.
 
-HP continues to expand its MJF material portfolio, and third-party powder suppliers are narrowing the performance and cost gap between PA11 and PA12. As bio-based polymer supply chains mature, PA11 pricing is expected to converge with PA12 over the next several years. For engineers making material decisions today, the nylon 12 vs nylon 11 multi jet fusion production parts comparison comes down to a clear trade-off: PA12 for stiffness, stability, and cost; PA11 for toughness, ductility, and sustainability.
+Choose based on what your part actually experiences in service, not on defaults.
 
-Choose based on what your part actually experiences in service — not on defaults.
+## Sources
+
+- [HP 3D High Reusability PA 12 datasheet, 4AA6-4895EEP, November 2017 (copy hosted by IPFL)](https://ipfl.co.uk/wp-content/uploads/2022/09/HP-MJF-PA12.pdf)
+- [HP 3D High Reusability PA 11 datasheet, 4AA7-0715ENE, January 2019 (copy hosted by 3dprinting.com)](https://3dprinting.com/wp-content/uploads/2019/02/HP-PA-11-TDS-4AA7-0715ENE.pdf)
+- [HP white paper: HP 3D Printing materials for the HP Jet Fusion 5200 Series, Mechanical Properties, 4AA7-7084ENW, September 2020 (copy hosted by Sculpteo)](https://info.sculpteo.com/hubfs/Material%20documentation/PA11%20HP/TDS%20HP%20pa12%20pa12gb%20pa11%20pp%20%281%29.pdf)
+- [Wikipedia: Nylon 12](https://en.wikipedia.org/wiki/Nylon_12)
+- [Wikipedia: Nylon 11](https://en.wikipedia.org/wiki/Nylon_11)
+
+Fact-checked 2026-11-21
